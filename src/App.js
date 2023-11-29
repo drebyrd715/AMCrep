@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './components/Footer';
+import Footerlogo from './components/Footerlogo';
+import Seeamovie from './components/Seeamovie';
+import Movietitles from './components/Movietitles';
+import Moretitles from './components/Moretitles';
+import Somemoretitle from './components/Somemoretitle';
+import Lastimage from './components/Lastimage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Seeamovie/>
+    <Movietitles/>
+    <Moretitles/>
+    <Somemoretitle/>
+    <Lastimage/>
+    <img src="./links.png"/>
+    <Footer/>
+    <Footerlogo/>
+    </>
   );
 }
 
