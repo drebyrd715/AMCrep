@@ -13,7 +13,13 @@ function Seeamovie() {
         <h4>Coming Soon</h4>
         </div>
         </div>
-
+        <hr
+        style={{
+          background: 'white',
+          color: 'white',
+           borderColor: 'white',
+        }}
+      /> 
 
     </div>
   )
